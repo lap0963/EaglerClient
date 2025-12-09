@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Eaglercraft Client",
-  "description": "Play Minecraft 1.8.8 in browser – works on school Chromebooks",
+  "description": "Play Minecraft 1.8.8 ",
   "version": "4.2.0",
   "icons": {
     "16": "icon.png",
